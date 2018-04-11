@@ -653,6 +653,7 @@ define([
                 locale: this.languageSetting,
                 eventLimit: this.limitEvents,
                 scrollTime: this.scrollTime,
+                eventOverlap: this.eventOverlap,
             };
 
             if (this.monthNamesFormat) {

@@ -472,6 +472,11 @@
             <attributeTypes>
                 <attributeType name="String" />
             </attributeTypes>
+        <property key="eventOverlap" type="boolean" defaultValue="true">
+            <caption>Event Overlap</caption>
+            <category>Scheduler</category>
+            <description>Determines if events being dragged and resized are allowed to overlap each other.</description>
+        </property>
         </property>
     </properties>
 </widget>
